@@ -54,7 +54,7 @@ public class OrderController {
                         throw e;
                 } catch (Exception e) {
                         logger.error("Error while creating order: {}", e.getMessage());
-                        throw new RuntimeException("Internal Server Error");
+                        throw new RuntimeException("Internal Server Error!!");
                 }
         }
 
